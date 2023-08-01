@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>DANIEL SILVA</h1>
+            <h2>Ingeniero Multimedia - UMNG</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/DanielAlejandroSilvaFloriano" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://github.com/danielsilva14" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/daniel_alejo14/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/daniel-alejandro-silva-floriano-11836a113/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy DANIEL ALEJANDRO SILVA FLORIANO,</span> 
+                estudiante de ultimo semestre de ingenieria multimedia apasionado por la creatividad y la tecnología. Mi trayectoria en el mundo de la multimedia se ha convertido en un emocionante viaje, impulsado por mi amor por el arte y mi fascinación por la innovación tecnológica.
+                Desde que era joven, he sido un ávido creador y consumidor de contenido multimedia. Esta pasión me llevó a embarcarme en una formación académica en ingeniería multimedia, donde adquirí las habilidades técnicas necesarias para complementar mi visión artística.
+                Mi experiencia estudiantil abarca una amplia gama de proyectos multimedia, incluyendo el marketing digital, la producción de videojuegos, diseño gráfico, diseño UX/UI, animaciones 2D y 3D, modelado 3d y renderizado, y desarrollo Front de sitios web interactivos. Cada proyecto representa un nuevo desafío que abrazo con entusiasmo, y me ha brindado la oportunidad de trabajar con clientes diversos y equipos multidisciplinarios.
+                Creo firmemente en la importancia de la colaboración para lograr resultados sobresalientes. Trabajar en equipo ha enriquecido mi perspectiva creativa y ha reforzado mi capacidad para adaptarme y aprender de diferentes enfoques y estilos.
+                Siempre estoy atento a las últimas tendencias en diseño y tecnología, y me apasiona encontrar nuevas formas de mejorar la experiencia del usuario. La evolución constante de la tecnología me motiva a seguir aprendiendo y experimentando para ofrecer soluciones innovadoras y memorables.
+                Más allá de mi pasión profesional, disfruto explorar diferentes formas de arte y culturas.
+                Me siento agradecido por las oportunidades que he tenido en mi carrera como ingeniero multimedia y estoy emocionado por lo que el futuro me depara. 
+                
+                <p>Si tienes un proyecto creativo en mente o simplemente quieres conectar, ¡no dudes en contactarme! Estoy ansioso por compartir mi visión creativa y contribuir al éxito de tu proyecto.</p>
+                
+            </p> 
+            <p>¡Gracias por tomarte el tiempo de conocerme mejor!</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            17-07-1998
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +(57) 318 398 0152
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            silvaflorianodaniel@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Carrera 76A # 80-85, Bogotá DC
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>ESTUDIANTE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-radio"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <a href="https://drive.google.com/file/d/1vj6_OJAalfR478iLr2TPSGkbW8y3R7Ze/view?usp=sharing" target="_blank">
+                <button>
+                    Descargar CV <i class="fa-solid fa-download" ></i>
+                    <span class="overlay"></span>
+                 </button>
+            </a>
+                
+            
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript & Boostrap</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Suite Adobe (Ae, Dw, Ai, Id, Ps, Pr, Pt, Xd)</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>20%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Maya Software</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Phyton & C++ & SQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Unity</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>54%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proactivo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>78%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingeniería Multimedia</h4>
+                        <span class="casa">Universidad Militar Nueva Granada</span>
+                        <span class="fecha">2019 - 2023</span>
+                        <p>A la espera de obtener el Título profesional</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ingeniería Mecatrónica</h4>
+                        <span class="casa">Universidad Militar Nueva Granada</span>
+                        <span class="fecha">2015 - 2019</span>
+                        <p>Estudios realizados hasta 8 semestre, posteriormente fueron homologados para cursar ing. Multimedia</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Bachiller Académico</h4>
+                        <span class="casa">Institución Educativa María Auxiliadora</span>
+                        <span class="fecha">2009 - 2014</span>
+                        <p>Estudios de secundaria</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Dibujo Técnico & Artístico</h4>
+                        <span class="casa">Escuela de Arte El Bizantino</span>
+                        <span class="fecha">2007 - 2014</span>
+                        <p>Estudios básicos y técnicos de dibujo en diferentes técnicas, y pintura al óleo sobre lienzo</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Básica Primaria</h4>
+                        <span class="casa">Institución Educativa María Auxiliadora</span>
+                        <span class="fecha">2003 - 2008</span>
+                        <p>Estudios de básica primaria</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Instituto Interamericano Por La Paz y La Reconciliación</span>
+                        <span class="fecha">05/2023 - Act.</span>
+                        <p>Me desempeño como Freelance en el Instituto, ubicación en la México. Actualmente me encuentro desarrollando la página web de este.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Publicista Digital</h4>
+                        <span class="casa">Valsa Consultores</span>
+                        <span class="fecha">07/2023 - Act.</span>
+                        <p>Actualmente me desempeño como Freelance desarrollando una estrategia de posicionamiento y Email marketing.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">JhulianaDeViaje</span>
+                        <span class="fecha">07/2023 - Act.</span>
+                        <p>Actualmente me desempeño como Freelance desarrollando una página web tipo blog.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Diseñador</h4>
+                        <span class="casa">JhulianaDeViaje</span>
+                        <span class="fecha">07/2023 - Act.</span>
+                        <p>Actualmente me desempeño como Freelance diseñando una plantilla de video para el contido de videos-blog en youtube.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Product Manager</h4>
+                        <span class="casa">Lumon SAS</span>
+                        <span class="fecha">08/2022 - 11/2022.</span>
+                        <p>Dirección de proyecto de realidad virtual para
+                            niños con cáncer y manejo de equipo de 6
+                            integrantes.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Auxiliar de Investigación</h4>
+                        <span class="casa">Semillero MULTUS - UMNG</span>
+                        <span class="fecha">08/2020 - 11/2021.</span>
+                        <p>Apoyo en diferentes proyectos e investigador
+                            en proyecto personal</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Páginas WEB</h3>
+                        <p>Diseño y Desarrollo</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Piezas Graficas</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Modelado 3D</h3>
+                        <p>Maya Software</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Animación 3D</h3>
+                        <p>Maya Software</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Marketing Digital</h3>
+                        <p>SEO & Email Marketing</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <a href="https://wa.me/3183980152" target="_blank">
+                        <button>
+                            Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </a>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Carrera 76A # 80-85, Bogotá DC
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: +(57) 318 398 0152 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: silvaflorianodaniel@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+                <a href="https://www.facebook.com/DanielAlejandroSilvaFloriano" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://github.com/danielsilva14" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/daniel_alejo14/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/daniel-alejandro-silva-floriano-11836a113/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+        <h3 class="footer__copyright">Derechos reservados &copy; Daniel Silva</h3>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
