@@ -36,7 +36,7 @@ html{
 }
 .contenedor-header header nav ul li a{
     text-align: none;
-    color: #000000;
+    color: #ffffff;
     margin: 0 15px;
     padding: 3px;
     transition: .5s;
@@ -708,27 +708,6 @@ footer .arriba{
     }
 }
 @media screen and (max-width:700px){
-    nav{
-        display: none;
-    }
-    .nav-responsive{
-        display: block;
-    }
-    nav.responsive{
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 75px;
-        background-color: #ffffff;
-        width: 180px;
-    }
-    nav.responsive ul{
-        display: block !important;
-    }
-    nav.responsive ul li{
-        border-bottom: 1px solid #fff;
-        padding: 10px 0;
-    }
     .sobremi .fila{
         display: block;
     }
