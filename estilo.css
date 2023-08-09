@@ -52,6 +52,7 @@ html{
     border-radius: 5px;
     cursor: pointer;
     display: none;
+    margin-right: 5px;
 }
 /* SECCION I N I C I O */
 .inicio{
@@ -706,11 +707,12 @@ footer .arriba{
         border-bottom: 1px solid #fff;
         padding: 10px 0;
     }
-    .contenido-banner{
-        top: 75px;
-    }
 }
 @media screen and (max-width:700px){
+    .inicio .contenido-banner{
+        margin-top: 100px;
+    }
+
     .sobremi .fila{
         display: block;
     }
