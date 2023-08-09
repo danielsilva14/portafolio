@@ -36,7 +36,7 @@ html{
 }
 .contenedor-header header nav ul li a{
     text-align: none;
-    color: #ffffff;
+    color: #000000;
     margin: 0 15px;
     padding: 3px;
     transition: .5s;
@@ -705,6 +705,9 @@ footer .arriba{
     nav.responsive ul li{
         border-bottom: 1px solid #fff;
         padding: 10px 0;
+    }
+    .contenido-banner{
+        top: 75px;
     }
 }
 @media screen and (max-width:700px){
