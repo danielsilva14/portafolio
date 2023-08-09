@@ -686,6 +686,9 @@ footer .arriba{
 }
 /* SECCION RESPONSIVE */
 @media screen and (max-width:980px){
+    .inicio .contenido-banner{
+        margin-top: 100px;
+    }
     nav{
         display: none;
     }
