@@ -870,6 +870,8 @@ footer .right{
     }
     .iniciopw .contenido-banner1{
         margin-top: 100px;
+        transform: translateX(-30%);
+        width: 3000px;
     }
     .iniciopw .contenido-banner2{
         margin-top: 200px;
@@ -908,16 +910,17 @@ footer .right{
     }
     .iniciopw .contenido-banner1{
         margin-top: 100px;
-        transform: translateX(-20%);
+        transform: translateX(-15%);
         width: 3000px;
         
     }
     .iniciopw .contenido-banner2{
-        margin-top: 350px;
+        margin-top: 100px;
+        width: 1000px;
     }
     .iniciopw .contenido-banner1 h1{
     
-        font-size: 32px;
+        font-size: 30px;
         font-family: 'Righteous';
     }
     .iniciopw .contenido-banner1 h2{
@@ -925,7 +928,7 @@ footer .right{
         font-weight: normal;
     }
     .iniciopw .contenido-banner2 h2{
-        font-size: 12px;
+        font-size: 10px;
         font-weight: normal;
     }
 
