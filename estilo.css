@@ -736,6 +736,7 @@ footer .right{
     height: 80vh;
     color: #000000;
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 .iniciopw .contenido-banner1{
@@ -785,18 +786,19 @@ footer .right{
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
-    margin-bottom: 10px;
+   
 }
 .diseños .fila{
     display: flex;
     margin-top: 10px;
     margin-bottom: 50px;
+    
 }
 .diseños .col{
     width: 50%;
-    padding: 10px;
     position: relative;
     justify-content: center; 
+    padding: 20px;
 }
 .diseños .col img{
     width: 100%;
@@ -858,23 +860,18 @@ footer .right{
     background-color: #F9C713;
 }
 .diseños .fila .col video{
-    width:500px; 
+    width:480px; 
     height:320px;
 }
    
 
 /* SECCION RESPONSIVE */
 @media screen and (max-width:980px){
-    .inicio .contenido-banner{
-        margin-top: 100px;
-    }
     .iniciopw .contenido-banner1{
-        margin-top: 100px;
-        transform: translateX(-30%);
-        width: 3000px;
+        margin-top: 100px;        
     }
     .iniciopw .contenido-banner2{
-        margin-top: 200px;
+        margin-top: -10px;
     }
     nav{
         display: none;
@@ -905,21 +902,19 @@ footer .right{
 
 }
 @media screen and (max-width:700px){
-    .inicio .contenido-banner{
-        margin-top: 100px;
-    }
     .iniciopw .contenido-banner1{
         margin-top: 100px;
-        transform: translateX(-15%);
-        width: 3000px;
-        
+        width: 70vh;
+        height: auto;
     }
+   
     .iniciopw .contenido-banner2{
-        margin-top: 100px;
-        width: 1000px;
+        margin-top: -10px;
+        height: auto;
+        width: 50vh;
+        padding: 20px;
     }
     .iniciopw .contenido-banner1 h1{
-    
         font-size: 30px;
         font-family: 'Righteous';
     }
@@ -928,7 +923,7 @@ footer .right{
         font-weight: normal;
     }
     .iniciopw .contenido-banner2 h2{
-        font-size: 10px;
+        font-size: 12px;
         font-weight: normal;
     }
 
@@ -939,17 +934,30 @@ footer .right{
     .sobremi .fila .col{
         width: fit-content;
     }
+
+
     .diseños .fila{
-        display: block;
+        flex-direction: column;
     }
-    .diseños .fila .col{
+    .diseños .col{
         width: fit-content;
     }
     .diseños .fila .col video{
-        width: 100%;
-        max-width: 100px; 
+        width: 290px; 
         height: auto; 
     }
+    .diseños .col-imagen {
+        order: 1;
+    }
+      
+    .diseños .col-descripcion {
+        order: 2; 
+    }
+    .diseños h2{
+        margin-top: -20px;
+        margin-bottom: 30px;      
+    }
+
 
     .skills .fila{
         display: block;
