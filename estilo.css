@@ -746,7 +746,8 @@ footer .right{
     margin: auto;
     text-align: right;
     border-radius: 0px 500px 500px 0px;
-    transform: translateX(-50%);
+    transform: translateX(-100%);
+    margin-top: 100px;
 }
 .iniciopw .contenido-banner1 h1{
     
@@ -760,10 +761,12 @@ footer .right{
 .iniciopw .contenido-banner2{
     padding: 20px;
     background-color: rgba(249, 199, 19, 0.5);
-    max-width: 450px;
+    max-width: 600px;
     margin: auto;
     text-align: left;
     border-radius: 40px;
+    transform: translateX(50%);
+    margin-top: -20px;
 }
 .iniciopw .contenido-banner2 h2{
     font-size: 20px;
