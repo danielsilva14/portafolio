@@ -43,3 +43,17 @@ window.onscroll = function(){
     efectoHabilidades();
 } 
 
+const slider = document.querySelector('.slider');
+let counter = 0;
+
+function slide() {
+  counter++;
+  if (counter >= slider.children.length) {
+    counter = 0;
+  }
+  slider.style.transform = `translateX(-${counter * 100}%)`;
+}
+
+setInterval(slide, 3000); // Cambia de imagen cada 3 segundos (ajusta el tiempo según tus necesidades)
+
+
