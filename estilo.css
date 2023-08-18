@@ -54,6 +54,8 @@ html{
     display: none;
     margin-right: 5px;
 }
+
+
 /* SECCION I N I C I O */
 .inicio{
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.5)),
@@ -809,7 +811,7 @@ footer .right{
 }
 .diseños .col .imagen{
     padding: 5px;
-    
+    align-items: center;
 }
 .diseños .col p{
     font: 18px;
@@ -872,18 +874,21 @@ footer .right{
 .slider-container {
     width: 100%;
     overflow: hidden; /* Oculta el contenido que excede el contenedor */
-    position: relative;
+    position: relative;  
   }
   
-  .slider {
+.slider {
     display: flex; /* Crea un contenedor flexible */
     transition: transform 0.5s ease; /* Añade una transición para el deslizamiento */
-  }
+}
   
-  .slider img {
-    width:480px; 
+.slider img {
+    width:auto; 
     height:320px;
-  }
+}
+ 
+
+
 
 /* SECCION RESPONSIVE */
 @media screen and (max-width:980px){
