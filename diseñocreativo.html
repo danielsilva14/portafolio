@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portafolio</title>
     <link rel="stylesheet" href="estilo.css">
     <link rel="icon" type="image/png" href="img/logo.png">
+
 </head>
 <body>
     <!-- MENU ENCABEZADO -->
@@ -49,6 +54,52 @@
         <h2>PIEZAS GRÁFICAS Y LOGOS</h2>
 
         <div class="fila">
+            <!-- descripcion -->
+            <div class="col col-descripcion">
+               <h3>SIN BOLETA</h3>
+               <ul>
+                   <li>
+                       <strong>Fecha</strong>
+                       2024-1
+                   </li>
+                   <li>
+                       <strong>Descripción</strong>
+                       <p> 
+                        Logo diseñado para proyecto futbolístico de streaming de MediaPro, así como animaciones de intros y bumpers.
+                       </p> 
+                   </li>
+               </ul>
+           </div>
+           <!-- imagen -->
+           <div class="col col-imagen">
+                <div class="imagen">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                           <!-- Slide 1 (imagen) -->
+                           <div class="swiper-slide">
+                              <img src="img/logosb.png" alt="Imagen 1">
+                           </div>
+                     
+                           <!-- Slide 2 (video) -->
+                           <div class="swiper-slide">
+                              <iframe width="560" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+                           </div>
+                     
+                           <!-- Agrega más slides según sea necesario -->
+                        </div>
+                     
+                        <!-- Agrega la paginación si lo deseas -->
+                        <div class="swiper-pagination"></div>
+                     
+                        <!-- Agrega las flechas de navegación si lo deseas -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+           </div>
+       </div>
+
+        <div class="fila">
             <!-- imagen -->
             <div class="col col-imagen">
                 <div class="imagen">
@@ -70,7 +121,7 @@
             </div>
             <!-- descripcion -->
             <div class="col col-descripcion">
-                <h3>Trabajos ESPN</h3>
+                <h3>ESPN</h3>
                 <ul>
                     <li>
                         <strong>Fecha</strong>
@@ -94,8 +145,30 @@
         </div>
 
         <div class="fila">
-             <!-- imagen -->
-             <div class="col col-imagen">
+            <!-- descripcion -->
+            <div class="col col-descripcion">
+               <h3>Piezas Gráficas Informativas</h3>
+               <ul>
+                   <li>
+                       <strong>Fecha</strong>
+                       2024-1
+                   </li>
+                   <li>
+                       <strong>Descripción</strong>
+                       <p> 
+                        Diseño y creación de carteles informativos para los clientes de Valsa consultores.
+                       </p> 
+                   </li>
+                   <li>
+                        <strong>Vizualizalo</strong>
+                        <div class="redes">
+                            <a href="https://drive.google.com/drive/folders/1_vJM2DB-75lTrq6qfGRnQK3Jz_1xGskG?usp=drive_link" target="_blank"><i class="fa-brands fa-google-drive"></i></a>
+                        </div>
+                    </li>
+               </ul>
+           </div>
+           <!-- imagen -->
+           <div class="col col-imagen">
                 <div class="imagen">
                     <div class="slider-container">
                         <div class="slider slider1">
@@ -111,31 +184,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <!-- descripcion -->
-            <div class="col col-descripcion">
-               <h3>Piezas Gráficas Informativas</h3>
-               <ul>
-                   <li>
-                       <strong>Fecha</strong>
-                       2024-1
-                   </li>
-                   <li>
-                       <strong>Descripción</strong>
-                       <p> 
-                            Diseño y creación de carteles informativos para los clientes de Valsa consultores.
-                       </p> 
-                   </li>
-                   <li>
-                    <strong>Vizualizalo</strong>
-                    <div class="redes">
-                        <a href="https://drive.google.com/drive/folders/1_vJM2DB-75lTrq6qfGRnQK3Jz_1xGskG?usp=drive_link" target="_blank"><i class="fa-brands fa-google-drive"></i></a>
-                    </div>
-                </li>
-               </ul>
            </div>
        </div>
+
 
         <div class="fila">
             <!-- imagen -->

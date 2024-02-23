@@ -59,3 +59,17 @@ sliders.forEach(slider => {
   setInterval(slide, 3000);
 });
 
+var swiper = new Swiper('.swiper-container', {
+    // Opciones y configuraciones aquí
+    // Consulta la documentación de Swiper para personalizar según tus necesidades
+    // https://swiperjs.com/swiper-api
+    loop: true, // Por ejemplo, activa el bucle continuo
+    pagination: {
+       el: '.swiper-pagination',
+       clickable: true,
+    },
+    navigation: {
+       nextEl: '.swiper-button-next',
+       prevEl: '.swiper-button-prev',
+    },
+ });
