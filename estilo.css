@@ -896,6 +896,7 @@ footer .right{
   
   /* Estilos para las diapositivas del slider */
   .swiper-slide {
+    display: flex;
     text-align: center;
     font-size: 18px;
     background: #fff; /* Fondo de las diapositivas */
