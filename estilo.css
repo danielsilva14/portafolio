@@ -886,7 +886,39 @@ footer .right{
     width:auto; 
     height:320px;
 }
- 
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Estilos para las diapositivas del slider */
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff; /* Fondo de las diapositivas */
+  }
+  
+  /* Estilos para la paginación del slider */
+  .swiper-pagination {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* Estilos para las flechas de navegación */
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  /* Cambia el color de fondo de las flechas de navegación al pasar el ratón */
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    background: #333;
+  }
 
 
 
