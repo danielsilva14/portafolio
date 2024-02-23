@@ -896,10 +896,13 @@ footer .right{
   
   /* Estilos para las diapositivas del slider */
   .swiper-slide {
-    display: flex;
+    display: none;
     text-align: center;
     font-size: 18px;
     background: #fff; /* Fondo de las diapositivas */
+  }
+  .swiper-slide-active {
+    display: block;
   }
   
   /* Estilos para la paginación del slider */
